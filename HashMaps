@@ -1,0 +1,12 @@
+LCS: To find a long consecutive subsequence in an arrays.
+
+approach:
+map a hashMap of element and bool , intially it all be true.
+then loop through array...and pick each element now go back
+by decrementing and see the number it present or not keep the count of length
+and keep going backward it the number is not present and keep setting the visited value to false;
+repeate the process of forward also...
+and if the curr max length is greater than the total max length ,update and 
+and if it is equal find which comes first.
+
+
